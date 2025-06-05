@@ -24,60 +24,81 @@
   <body>
     <article>
       <!-- Верхушка картки -->
-      <header>
-        <div class="NM-phone"><i class="fa-solid fa-phone"></i></div>
-        <img
-          class="MyPhoto"
-          src="assets/img/photo_2024-08-31_02-33-14.jpg"
-          alt="MyPhoto"
-        />
-        <h2>Artem Stasiuk</h2>
-        <div class="MapMarker">
-          <i class="fa-solid fa-map-location-dot"> Kyiv Ukraine</i>
+      <section class="MyPhoto">
+        <div class="NM-phone">
+          <a href="tel:+380638887138"><i class="fa-solid fa-phone"></i></a>
+          <a href="mailto:goglil2063@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
         </div>
+      </section>
+      <header>
+        <h2>Artem Stasiuk</h2>
+        <a
+          href="https://maps.google.com/?q=Kyiv,Ukraine"
+          target="_blank"
+          style="text-decoration: none"
+        >
+          <i class="fa-solid fa-map-location-dot"></i> Kyiv Ukraine
+        </a>
       </header>
+      <hr class="divider" />
       <!-- Инофрмация -->
       <main>
         <p>100 Followers</p>
         <!-- Секции для фоток -->
         <section class="photo-section">
           <img
+            class="photo"
             src="assets/img/photo_2025-06-05_14-03-12 (2).jpg"
             alt="subscriber"
             title="Subscriber"
           />
-        </section>
-        <section class="photo-section">
           <img
+            class="photo"
             src="assets/img/photo_2025-06-05_14-03-12 (3).jpg"
             alt="subscriber"
             title="Subscriber"
           />
-        </section>
-        <section class="photo-section">
           <img
+            class="photo"
             src="assets/img/photo_2025-06-05_14-03-12.jpg"
             alt="subscriber"
             title="Subscriber"
           />
-        </section>
-        <section class="photo-section">
           <img
+            class="photo"
             src="assets/img/photo_2025-06-05_14-03-13.jpg"
             alt="subscriber"
             title="Subscriber"
           />
+          <i class="BgColor fa-solid fa-user-plus"></i>
         </section>
       </main>
+      <!-- Нижняя часть -->
       <footer>
-        <div>
-          <ul>
-            <li><i class="fa-brands fa-telegram"></i></li>
-            <li><i class="fa-brands fa-facebook"></i></li>
-            <li><i class="fa-brands fa-youtube"></i></li>
-            <li><i class="fa-brands fa-twitch"></i></li>
-          </ul>
-        </div>
+        <ul class="footer-social">
+          <li>
+            <a href="https://t.me/yourusername" target="_blank"
+              ><i class="fa-brands fa-telegram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://facebook.com/yourusername" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://youtube.com/yourchannel" target="_blank"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitch.tv/yourusername" target="_blank"
+              ><i class="fa-brands fa-twitch"></i
+            ></a>
+          </li>
+        </ul>
       </footer>
     </article>
   </body>
